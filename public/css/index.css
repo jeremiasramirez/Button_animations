@@ -1,3 +1,7 @@
+body{
+	background-color: orangered;
+}
+
 .button__content{
 	display: flex;
 	justify-content: center;
@@ -6,9 +10,56 @@
  	margin-top: 8em;
 }
 .button__content button{
-	border-radius: 6px;
+	background-color: orange;
+	border-radius: 3px;
 	margin: .5em;
-	padding: .5em 3em;
+	padding: .5em 8em;
+	font-weight: 600;
 	font-size: 18px;
+	color: #ddd;
 	font-family: sans-serif;
+	border: 2px solid orange;
+	transition: 1s;
+	 transform: scale(1);
+	
 }
+ 
+
+.scale{
+	transform: scale(.7);
+	transform: rotateX(380deg);
+}
+#button__hover--js5{
+ 	transform: scale(1);
+ }
+    #button__hover--js5:hover{
+ 	transform: scale(1.1);
+ }
+ #button__hover--js4{
+ 	transform: scale(.9);
+ }
+    #button__hover--js4:hover{
+ 	transform: scale(1);
+ }
+  #button__hover--js3{
+ 	transform: scale(.8);
+ }
+    #button__hover--js3:hover{
+ 	transform: scale(1);
+ }
+  #button__hover--js2{
+ 	transform: scale(.7);
+ }
+    #button__hover--js2:hover{
+ 	transform: scale(1);
+ }
+  #button__hover--js1{
+ 	transform: scale(.6);
+ }
+   #button__hover--js1:hover{
+ 	transform: scale(1);
+ }
+
+
+
+
