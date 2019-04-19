@@ -1,0 +1,14 @@
+.button__content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+ 	margin-top: 8em;
+}
+.button__content button{
+	border-radius: 6px;
+	margin: .5em;
+	padding: .5em 3em;
+	font-size: 18px;
+	font-family: sans-serif;
+}
